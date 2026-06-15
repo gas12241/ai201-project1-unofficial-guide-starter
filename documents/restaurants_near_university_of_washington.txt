@@ -1,0 +1,81 @@
+Source: Restaurants near University of Washington (TripAdvisor)
+URL: https://www.tripadvisor.com/RestaurantsNear-g60878-d269796-University_of_Washington-Seattle_Washington.html
+
+# Restaurants Near University of Washington - Seattle (2026)
+
+## Top Ranked Restaurants
+
+1. Portage Bay Cafe - Roosevelt
+   - Rating: 4.4/5 (531 reviews)
+   - Distance: 0.5 mi
+   - Cuisine: American
+   - Price: $$-$$$
+   - Notable: "ricotta lemon pancakes, delicious"
+
+2. Din Tai Fung
+   - Rating: 4.4/5 (747 reviews)
+   - Distance: 0.6 mi
+   - Cuisine: Chinese, Asian
+   - Price: $$-$$$
+   - Specialty: Soup dumplings
+
+3. Agua Verde Cafe
+   - Rating: 4.0/5 (298 reviews)
+   - Distance: 0.4 mi
+   - Cuisine: Mexican
+   - Price: $$-$$$
+   - Feature: Waterfront location with walk-up window
+
+4. Ivar's Salmon House
+   - Rating: 4.1/5 (894 reviews)
+   - Distance: 0.8 mi
+   - Cuisine: American, Seafood
+   - Price: $$-$$$
+
+5. JOEY Kitchen at University Village
+   - Rating: 4.2/5 (198 reviews)
+   - Distance: 0.6 mi
+   - Cuisine: American, Steakhouse
+   - Price: $$-$$$
+
+6. Voula's Offshore Cafe
+   - Rating: 4.4/5 (167 reviews)
+   - Distance: 0.7 mi
+   - Cuisine: American, Cafe
+   - Price: $
+
+7. Schultzy's Sausage
+   - Rating: 3.9/5 (77 reviews)
+   - Distance: 0.3 mi
+   - Cuisine: American, Bar
+   - Price: $$-$$$
+
+8. Thai Tom
+   - Rating: 4.3/5 (236 reviews)
+   - Distance: 0.6 mi
+   - Cuisine: Asian, Thai
+   - Price: $
+
+9. College Inn Pub
+   - Rating: 3.7/5 (15 reviews)
+   - Distance: 0.3 mi
+   - Cuisine: Bar, Pub
+   - Price: $
+   - Feature: Pool games available
+
+10. MOD Pizza
+    - Rating: 4.6/5 (21 reviews)
+    - Distance: 0.4 mi
+    - Cuisine: Pizza
+    - Price: $
+    - Review: "Always fresh and tasty"
+
+## Additional Notable Restaurants
+
+- Mamma Melina Ristorante (4.3/5) - Italian, 0.9 mi
+- Petra Mediterranean Bistro (4.5/5) - Mediterranean, Middle Eastern
+- Trinity Market and Deli (4.6/5) - Sandwiches, 0.6 mi
+- Kong Tofu House (5.0/5) - Korean, 0.3 mi
+- Cedars Restaurant (3.7/5) - Indian, Lebanese, 0.5 mi
+
+Total Results: 4,222 restaurants within search parameters

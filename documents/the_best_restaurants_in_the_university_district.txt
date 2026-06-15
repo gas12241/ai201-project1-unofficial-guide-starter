@@ -1,0 +1,119 @@
+Source: The Best Restaurants In The University District
+URL: https://www.theinfatuation.com/seattle/guides/best-restaurants-bars-university-district
+
+# The Best Restaurants In The University District - Seattle
+
+## Restaurant Listings
+
+Hey Bagel
+- Address: 4610 Village Ct NE, Seattle, Washington 98105
+- Price: $$$$
+- Cuisine: Bagels
+- Perfect For: Breakfast, Serious Takeout Operation
+- Rating: 8.7
+- Description: Former pop-up now permanent fixture featuring "shiny shell across the top, a resounding crunch, and a spongy center of bready fluff." Diverse schmear options available.
+
+Saint Bread
+- Address: 1421 NE Boat St, Seattle, WA 98105
+- Price: $$$$
+- Cuisine: Bakery/Cafe
+- Perfect For: Breakfast, Brunch, Kids, Cheap Eats, Serious Takeout Operation
+- Rating: 7.8
+- Description: Rustic waterfront setting serving za'atar avocado toast, Norwegian school buns, and standout breakfast sandwiches on Japanese melonpan.
+
+Hinoki
+- Address: 1421 NE Boat St, Seattle, Seattle 98105
+- Price: $$$$
+- Cuisine: Japanese
+- Perfect For: Drinks & A Light Bite, Casual Dinners, Sitting Outside
+- Rating: 8.2
+- Description: Seasonal truck operation featuring sweet vermouth spritzes, chicken karaage, roasted maitakes, and bacon candy.
+
+Din Tai Fung
+- Address: 2621 NE 46th St, Seattle, WA 98105
+- Price: $$$$
+- Cuisine: Chinese
+- Perfect For: Lunch, Big Groups, Kids
+- Rating: 8.4
+- Description: Massive steamy dining room known for exceptional xiao long bao dumplings. Expect 45-minute waits.
+
+Korean Tofu House
+- Address: 4142 Brooklyn Ave NE, Seattle, WA 98105
+- Price: $$$$
+- Cuisine: Korean
+- Perfect For: Casual Dinners, Lunch, Dining Solo, Serious Takeout Operation
+- Rating: 8.0
+- Description: Basement location featuring sizzling short ribs, kimchi tofu stew, and banchan sides.
+
+Little Duck
+- Address: 4100 Roosevelt Way NE, Seattle, WA 98105
+- Price: $$$$
+- Cuisine: Chinese
+- Perfect For: Casual Dinners, Lunch, Walk-Ins, Being Left Alone
+- Rating: 8.1
+- Description: Northeastern Chinese specialist with fried peppercorn chicken and excellent pork dumplings.
+
+Thai Tom
+- Address: 4543 University Way NE, Seattle, WA 98105
+- Price: $$$$
+- Cuisine: Thai
+- Perfect For: Dining Solo, Gluten-Free Options, Lunch, Serious Takeout Operation
+- Description: Cash-only establishment with consistent lines. "Noodles are always wonderfully saucy with some added char marks from the wok."
+
+Taste of India
+- Address: 5517 Roosevelt Way NE, Seattle, WA 98105
+- Price: $$$$
+- Cuisine: Indian
+- Perfect For: Casual Dinners, Sitting Outside, Birthdays
+- Rating: 8.1
+- Description: Half-block outdoor dining space with efficient service, complimentary samosas, and standout coconut curry with fish.
+
+Off The Rez
+- Address: 4300 15th Ave NE, Seattle, WA 98195
+- Price: $$$$
+- Cuisine: Native American
+- Perfect For: Lunch, Cheap Eats
+- Description: Burke Museum cafe serving Indigenous-centered cuisine featuring homemade frybread with various fillings.
+
+Village Sushi
+- Address: 5211 University Way Northeast, Seattle, WA 98105
+- Price: $$$$
+- Cuisine: Japanese
+- Perfect For: Casual Dinners, Gluten-Free Options, Walk-Ins
+- Description: Record-filled sushi restaurant with superior fish quality compared to nearby competitors.
+
+Hiroshi's Poke
+- Address: 4712 11th Ave NE, Seattle, WA 98105
+- Price: $$$$
+- Cuisine: Poke
+- Perfect For: Cheap Eats, Serious Takeout Operation, Lunch
+- Description: Takeout-only poke spot with "sock-rocking" bowls featuring melty lomi lomi salmon or soy-soaked tuna.
+
+The Mountaineering Club
+- Address: 4507 Brooklyn Avenue N.E., Seattle, WA 98105
+- Price: $$$$
+- Cuisine: American
+- Perfect For: Drinking Great Cocktails, Drinks & A Light Bite, First Dates, Sitting Outside
+- Description: Graduate Hotel bar with Eagle Scout-inspired design, patio skyline views, and camping-themed cocktails.
+
+Aladdin Gyro-Cery
+- Address: 4139 University Way NE, Seattle, WA 98105
+- Price: $$$$
+- Cuisine: Greek
+- Perfect For: Big Groups, Casual Dinners, Cheap Eats, Late Nights, Lunch, Serious Takeout Operation
+- Rating: 7.7
+- Description: Falafel specialist with crispy offerings and tahini dipping sauce. Fast service suitable for takeout.
+
+Queen Mary Tea Room
+- Address: 2912 NE 55th St, Seattle, WA 98105
+- Price: $$$$
+- Cuisine: Bakery/Cafe
+- Perfect For: Special Occasions, Unique Dining Experiences, Gluten-Free Options
+- Description: Afternoon tea service with seasonal decor, tiered towers including tomato bisque shots, and gluten-free options.
+
+Morsel
+- Address: 5000 University Way NE Suite D, Seattle, WA 98105
+- Price: $$$$
+- Cuisine: American
+- Perfect For: Breakfast, Brunch, Coffee & A Light Bite, Gluten-Free Options, Kids, Cheap Eats
+- Description: Biscuit-focused breakfast spot with rotating daily flavors and housemade spreads. Spanish Fly sandwich recommended.
