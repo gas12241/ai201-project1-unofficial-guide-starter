@@ -1,7 +1,7 @@
 # The Unofficial Guide — Project 1
 
 > **How to use this template:**
-> Complete each section *after* you've built and tested the corresponding part of your system.
+> Complete each section _after_ you've built and tested the corresponding part of your system.
 > Do not write placeholder text — if a section isn't done yet, leave it blank and come back.
 > Every section below is required for submission. One-liners will not receive full credit.
 
@@ -9,10 +9,15 @@
 
 ## Domain
 
-<!-- What topic or category of knowledge does your system cover?
-     Why is this knowledge valuable, and why is it hard to find through official channels?
-     Example: "Student reviews of CS professors at [university] — useful because official
-     course descriptions don't reflect teaching style, exam difficulty, or workload." -->
+<!-- What topic or category of knowledge does your system cover? -->
+
+My Domain will be "Places to eat around the University of Washington".
+
+<!-- Why is this knowledge valuable, and why is it hard to find through official channels?
+Example: "Student reviews of CS professors at [university] — useful because official
+course descriptions don't reflect teaching style, exam difficulty, or workload." -->
+
+This knowledge is valuable because there are a wide variety of places to eat around the university, and some might not be well known. It isn't necesarily hard to find this information through official channels, per se, but to find a comprehensive list might be a little hard, which is why I think collecting documents about it (and creating my own RAG) is important.
 
 ---
 
@@ -20,20 +25,21 @@
 
 <!-- List every source you collected documents from.
      Be specific: include URLs, subreddit names, forum thread titles, or file names.
-     Aim for variety — sources that together cover different subtopics or perspectives. -->
+     Aim for variety — sources that together cover different subtopics or perspectives.
+     Document, page, or thread -->
 
-| # | Source | Type | URL or file path |
-|---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| #   | Source                                                                                       | Type     | URL or file path                                                                                                  |
+| --- | -------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------- |
+| 1   | The Best Restaurants in Seattle's University District                                        | Web Page | https://seattle.eater.com/maps/where-to-eat-u-district-university-of-washington-seattle                           |
+| 2   | Restaurants near University of Washington                                                    | Web Page | https://www.tripadvisor.com/RestaurantsNear-g60878-d269796-University_of_Washington-Seattle_Washington.html       |
+| 3   | What are the favorite restaurants among students around the University of Washington campus? | Web Page | https://www.quora.com/What-are-the-favorite-restaurants-among-students-around-the-University-of-Washington-campus |
+| 4   | Restaurants near University of Washington                                                    | Web Page | https://www.opentable.com/landmark/restaurants-near-university-of-washington                                      |
+| 5   | EATING THE AVE                                                                               | Web Page | https://eatingtheave.com/                                                                                         |
+| 6   | The Best Restaurants In The University District                                              | Web Page | https://www.theinfatuation.com/seattle/guides/best-restaurants-bars-university-district                           |
+| 7   | Top 10 Best Restaurants Close To Uw Near Seattle, Washington                                 | Web Page | https://www.yelp.com/search?find_desc=Restaurants+Close+To+Uw&find_loc=Seattle%2C+WA&dd_referrer=                 |
+| 8   | Where to Eat in the University District                                                      | Web Page | https://www.seattlemet.com/eat-and-drink/where-to-eat-in-the-university-district-uw-restaurants                   |
+| 9   | Best Food Near the University of Washington                                                  | Web Page | https://tripalink.com/blog/best-food-near-university-of-washington                                                |
+| 10  | Where To Have A Casual Meal Near UW                                                          | Web Page | https://www.theinfatuation.com/seattle/guides/restaurants-near-uw                                                 |
 
 ---
 
@@ -91,13 +97,13 @@
      Be honest — a partially accurate or inaccurate result that you explain well is more
      valuable than a suspiciously perfect result. -->
 
-| # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
-|---|----------|-----------------|------------------------------|-------------------|-------------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| #   | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
+| --- | -------- | --------------- | ---------------------------- | ----------------- | ----------------- |
+| 1   |          |                 |                              |                   |                   |
+| 2   |          |                 |                              |                   |                   |
+| 3   |          |                 |                              |                   |                   |
+| 4   |          |                 |                              |                   |                   |
+| 5   |          |                 |                              |                   |                   |
 
 **Retrieval quality:** Relevant / Partially relevant / Off-target  
 **Response accuracy:** Accurate / Partially accurate / Inaccurate
@@ -151,12 +157,12 @@
 
 **Instance 1**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- _What I gave the AI:_
+- _What it produced:_
+- _What I changed or overrode:_
 
 **Instance 2**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- _What I gave the AI:_
+- _What it produced:_
+- _What I changed or overrode:_
