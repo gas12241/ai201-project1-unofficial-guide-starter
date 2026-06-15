@@ -2,15 +2,7 @@ Source: Best Food Near the University of Washington
 URL: https://tripalink.com/blog/best-food-near-university-of-washington
 
 # Best Food Near the University of Washington
-
-Author: Cedric Thomas
 Date: Jun 4, 2025
-
-## Introduction
-
-The University of Washington area, commonly called the "U District," features diverse dining options ranging from casual takeout to fine dining establishments. The neighborhood offers authentic Thai cuisine, fresh sushi, Caribbean sandwiches, and much more to satisfy various tastes and dietary preferences.
-
-## Restaurant List
 
 1. Thai Tom - Small Thai restaurant on the Ave known for Pad Thai and Spicy Basil Noodle with casual atmosphere
 2. Agua Verde Café & Paddle Club - Waterfront Mexican eatery on Portage Bay featuring seafood paella
@@ -36,7 +28,3 @@ The University of Washington area, commonly called the "U District," features di
 22. Terra Plata - Melrose Market - Upscale restaurant using locally sourced ingredients with rooftop deck
 23. Lost Lake Cafe & Lounge - Cozy restaurant and bar offering breakfast, brunch, dinner, and late-night coffee
 24. The Pink Door - Italian restaurant with truffle fries, grilled eggplant, and pasta dishes
-
-## Conclusion
-
-The dining scene around the University of Washington provides "a melting pot of culinary delights that satisfy a variety of palates and dietary needs," from Thai to sushi, pub fare, and fine dining options.

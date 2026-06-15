@@ -30,6 +30,7 @@ Each dict in the returned list contains exactly these keys:
 | `"text"`        | `str` | The chunk text                                                                        |
 | `"source_name"` | `str` | The source name (passed through from `source_name`)                                   |
 | `"chunk_id"`    | `str` | A unique identifier for this chunk (e.g., `"eating_the_ave_0"`, `"eating_the_ave_1"`) |
+| `"url"`         | `str` | The url (passed through from `url`)                                                   |
 
 Returns an empty list `[]` if the input text is empty or produces no valid chunks.
 
@@ -53,10 +54,9 @@ region of text at their boundary.
 ### Chunk size
 
 ```
-300 characters. Rule book text is semantically dense — a single rule is
-often 1–3 sentences, which fits comfortably in this range. Going smaller
-would fragment individual rules; going larger would merge unrelated rules
-into one chunk, making retrieval less precise.
+200 characters. Reviews aren't very long, they can be as short as a sentence or two,
+to as long as a paragraph. Going larger would merge unrelated restaurant reviews
+into one chunk, making retrieval harder
 ```
 
 ---
@@ -64,12 +64,8 @@ into one chunk, making retrieval less precise.
 ### Overlap
 
 ```
-50 characters of overlap between adjacent chunks. If a rule falls exactly
-on a chunk boundary, neither chunk alone contains the full rule. Overlap
-duplicates the tail of each chunk at the start of the next, so boundary-
-spanning content can still be retrieved intact. 50 characters is roughly
-one short sentence — enough to preserve context without significantly
-bloating the database.
+50 characters of overlap between adjacent chunks. Some reviews can span longer than
+a single chunk, which allows context preservation without bloating the database.
 ```
 
 ---
@@ -77,7 +73,7 @@ bloating the database.
 ### Minimum chunk length
 
 ```
-50 characters. Chunks shorter than this are discarded. Very short segments
+40 characters. Chunks shorter than this are discarded. Very short segments
 typically contain only whitespace, section headers, or punctuation — content
 that has no semantic signal and would just add noise to the vector database.
 ```
@@ -87,12 +83,8 @@ that has no semantic signal and would just add noise to the vector database.
 ### Rationale
 
 ```
-Rule books pack a lot of meaning into short passages, so smaller chunks
-tend to outperform paragraph-level splitting for targeted Q&A. A 300-
-character window is typically one complete rule — the right unit of
-retrieval for questions like "What happens when you roll a 7?" Paragraph
-splitting would work but produces uneven chunk sizes, since rule book
-paragraphs vary from one sentence to ten.
+A 200-character window is enough to encapsulate the shorter reviews while not
+spliting up bigger reviews into many pieces.
 ```
 
 ---
@@ -100,12 +92,11 @@ paragraphs vary from one sentence to ten.
 ### Known limitations
 
 ```
-Character-based splitting is indifferent to sentence and paragraph
-boundaries. A chunk can begin mid-sentence or split a rule across two
-chunks even with overlap, if the rule is longer than `chunk_size`.
-Numbered lists (e.g., "1. ... 2. ... 3. ...") may get split in the
-middle of an item. A paragraph-aware or sentence-aware splitter would
-handle these cases better, at the cost of more implementation complexity.
+Character-based splitting is indifferent to sentence and paragraph boundaries.
+A chunk can begin mid-sentence or split a review/restaurant across two chunks
+even with overlap, if the review is longer than `chunk_size`. Reviews may get
+split in the middle of an item. A paragraph-aware or sentence-aware splitter
+would handle these cases better, at the cost of more implementation complexity.
 ```
 
 ---

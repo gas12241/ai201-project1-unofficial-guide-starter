@@ -77,5 +77,3 @@ URL: https://www.tripadvisor.com/RestaurantsNear-g60878-d269796-University_of_Wa
 - Trinity Market and Deli (4.6/5) - Sandwiches, 0.6 mi
 - Kong Tofu House (5.0/5) - Korean, 0.3 mi
 - Cedars Restaurant (3.7/5) - Indian, Lebanese, 0.5 mi
-
-Total Results: 4,222 restaurants within search parameters
