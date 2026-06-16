@@ -45,14 +45,14 @@ This knowledge is valuable because there are a wide variety of places to eat aro
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
 **Chunk size:**
-I think 200 characters as a chunk size isn't too bad, most of the descriptioins of places
+I think 200 characters as a chunk size isn't too bad, most of the descriptions of places
 aren't too long, so I'll test it out, but 200 seems like a good place to start.
 
 **Overlap:**
 I think an overlap of 50 characters sounds good to start.
 
 **Reasoning:**
-From the lab, they had chunks of 300 with an overlap of 50. The overlap of 50 seems reasonable but considering that the descriptions are not on average as long as some rules, I went with a chunk size of 200.
+From the lab, they had chunks of 300 with an overlap of 50. The overlap of 50 seems reasonable but considering that the descriptions are not on average as long as some rules, I toned both down and went with a chunk size of 200.
 
 ---
 
@@ -68,7 +68,7 @@ From the lab, they had chunks of 300 with an overlap of 50. The overlap of 50 se
 I will use all-MiniLM-L6-v2 via sentence-transformers as it is the recommended option.
 
 **Top-k:**
-Considering how many restaurants are mentioned in the sources, I think 5 is a good amount.
+Considering how many restaurants are mentioned in the sources, I think 5 is a good amount. More than that, and you might get restaurants that don't fit the query, and dilute the answer given.
 
 **Production tradeoff reflection:**
 If there aren't enough results for a prompt, 5 results could dilute the answer. Will see if I have to lower.
@@ -84,7 +84,7 @@ If there aren't enough results for a prompt, 5 results could dilute the answer. 
 
 | #   | Question                                                                                                              | Expected answer                                                                    |
 | --- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| 1   | Are there any bakeries you would recommend in Portage Bay                                                             | Saint Bread is a former motor boatyard in Portage Bay that is a bakery.            |
+| 1   | Are there any bakeries you would recommend in Portage? Bay                                                            | Saint Bread is a former motor boatyard in Portage Bay that is a bakery.            |
 | 2   | I want a Caribbean sandwich near the University of Washington. Could you tell me of a place that sells them?          | Paseo Caribbean Food sells Caribbean Sandwiches near the University of Washington. |
 | 3   | Thai food sounds good right now. Can you recommend me a place near the University of Washington that sells Thai Food? | Should Include Jai Thai and Thai Tom's or something similar                        |
 | 4   | Pizza near the University                                                                                             | MOD Pizza, Pagliaci                                                                |
@@ -148,6 +148,62 @@ generator.py which produces a grounded, cited answer
 
 **Milestone 3 — Ingestion and chunking:**
 
+<!-- - Which AI tool you plan to use (Claude, Copilot, ChatGPT, etc.) -->
+
+Claude
+
+<!-- - What you'll give it as input (which sections of this planning.md, which requirements) -->
+
+I created a chunk-document-spec.md, which I based off of the lab that we did. I will give it that,
+and then ask it to make an ingest.py file similar to the one from class.
+
+<!-- - What you expect it to produce -->
+
+I expect it to make me a file similar to the the one in class BUT with some things changed. Considering
+I don't need the game name like we did in the lab, but we do need the Source Name and URL, I am expecting
+the ingest.py file to account for those.
+
+<!-- - How you'll verify the output matches your spec -->
+
+The variable names in the file make it pretty clear that they are following what is most important,
+my chunking strategy.
+
 **Milestone 4 — Embedding and retrieval:**
 
+<!-- - Which AI tool you plan to use (Claude, Copilot, ChatGPT, etc.) -->
+
+Claude
+
+<!-- - What you'll give it as input (which sections of this planning.md, which requirements) -->
+
+My ingest.py file as well as the example retriever.py file from class.
+
+<!-- - What you expect it to produce -->
+
+A retriever that takes into account the source and URL instead of game name like in the lab.
+
+<!-- - How you'll verify the output matches your spec -->
+
+Compare it to the one we did in class.
+
 **Milestone 5 — Generation and interface:**
+
+<!-- - Which AI tool you plan to use (Claude, Copilot, ChatGPT, etc.) -->
+
+Claude
+
+<!-- - What you'll give it as input (which sections of this planning.md, which requirements) -->
+
+Examples from the lab (the generator and app for the interface). Explicit instructions on what I
+want to be generated (for example grounding instructions as well as explicit inclusion of the
+source it was taken from - which may also include the URL).
+
+<!-- - What you expect it to produce -->
+
+A Gradio interface that will work with my project, as well as a generator that gives information based
+soley on what I trained it on and nothing else. It will also generate the source and URL where applicable.
+
+<!-- - How you'll verify the output matches your spec -->
+
+The generator and interface can be checked when running the app. Are the questions grounded? If
+they are, then I know they followed my spec.
